@@ -1,0 +1,33 @@
+.app-main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 16px;
+  padding: 16px;
+  min-height: 0;
+}
+
+.app-main-left {
+  min-height: 0;
+  display: flex;
+}
+
+.app-main-left > * {
+  flex: 1;
+}
+
+.app-main-right {
+  min-height: 0;
+  display: flex;
+}
+
+.app-main-right > * {
+  flex: 1;
+  min-height: 0;
+}
+
+@media (max-width: 1000px) {
+  .app-main {
+    grid-template-columns: 1fr;
+  }
+}

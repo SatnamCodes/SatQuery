@@ -1,0 +1,101 @@
+.audit-trail {
+  padding: 16px 18px;
+  margin-top: 10px;
+}
+
+.audit-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.audit-header .faint {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.audit-export {
+  font-size: 10px;
+  padding: 6px 10px;
+  border-color: var(--border-strong);
+  color: var(--cyan);
+}
+
+.audit-timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.audit-step {
+  display: flex;
+  gap: 12px;
+}
+
+.audit-step-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3px;
+}
+
+.audit-step-line {
+  width: 1px;
+  flex: 1;
+  min-height: 20px;
+  background: var(--border-strong);
+  margin-top: 4px;
+}
+
+.audit-step-body {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+}
+
+.audit-step-title {
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: var(--text);
+}
+
+.audit-step-detail {
+  font-size: 11px;
+  margin-top: 2px;
+  word-break: break-word;
+}
+
+.audit-confidence {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.audit-confidence .faint {
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+}
+
+.confidence-bar-track {
+  flex: 1;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--border);
+  overflow: hidden;
+}
+
+.confidence-bar-fill {
+  height: 100%;
+  background: var(--cyan);
+}
+
+.confidence-value {
+  font-size: 11px;
+  color: var(--cyan);
+  width: 36px;
+  text-align: right;
+}

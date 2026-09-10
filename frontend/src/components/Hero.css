@@ -1,0 +1,77 @@
+.hero-section {
+  position: relative;
+  height: 250vh;
+}
+
+.hero-sticky {
+  /* Pinning is handled by GSAP ScrollTrigger (pin: true) at runtime, not
+     CSS position:sticky — this just sets the pinned element's own layout. */
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 50% 45%, #0d1424 0%, #0a0f1c 70%);
+}
+
+.hero-canvas-wrap {
+  position: absolute;
+  inset: -10%;
+}
+
+.static-globe-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.static-globe-svg {
+  width: min(90vw, 900px);
+  height: min(90vw, 900px);
+  opacity: 0.5;
+}
+
+.hero-copy {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0 24px;
+  max-width: 1000px;
+  pointer-events: none;
+}
+
+.hero-headline {
+  font-size: clamp(34px, 6.2vw, 88px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.04;
+  margin: 0 0 22px;
+  color: var(--text);
+  mix-blend-mode: difference;
+}
+
+.hero-subhead {
+  font-size: clamp(13px, 1.3vw, 16px);
+  color: var(--text-dim);
+  letter-spacing: 0.02em;
+  margin: 0 0 34px;
+}
+
+.hero-cta {
+  pointer-events: all;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--text-dim);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 15px;
+  padding: 6px 2px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.hero-cta:hover {
+  color: var(--orange);
+  border-color: var(--orange);
+}

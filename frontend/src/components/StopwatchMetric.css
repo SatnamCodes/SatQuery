@@ -1,0 +1,49 @@
+.stopwatch {
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stopwatch-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stopwatch-label {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.stopwatch-live {
+  animation: pulse-dot 1s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.stopwatch-value {
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--orange);
+  line-height: 1.1;
+}
+
+.stopwatch-unit {
+  font-size: 16px;
+  color: var(--text-dim);
+  margin-left: 4px;
+}
+
+.stopwatch-compare {
+  font-size: 11px;
+  letter-spacing: 0.02em;
+}
