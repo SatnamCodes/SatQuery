@@ -3,6 +3,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import GlobeScene from "./GlobeScene";
 import StaticGlobeFallback from "./StaticGlobeFallback";
+import LaunchButton from "./LaunchButton";
 import { isWebGLAvailable } from "../lib/webgl";
 import "./Hero.css";
 
@@ -67,14 +68,12 @@ export default function Hero({ onLaunch }) {
           <h1 className="hero-headline">
             An officer waiting hours for a GIS analyst.
             <br />
-            Now waiting seconds.
+            Now waiting <span className="hero-accent-word">seconds</span>.
           </h1>
           <p className="hero-subhead">
             SatQuery AI answers remote-sensing questions with a documented trail, even offline.
           </p>
-          <button type="button" className="hero-cta" onClick={onLaunch}>
-            Launch console
-          </button>
+          <LaunchButton onLaunch={onLaunch} />
         </div>
       </div>
     </section>

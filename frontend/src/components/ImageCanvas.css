@@ -30,7 +30,7 @@
   position: relative;
   flex: 1;
   min-height: 320px;
-  background: #05070d;
+  background: var(--stage);
 }
 
 .single-image-view {
@@ -47,7 +47,7 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
-  background: #05070d;
+  background: var(--stage);
   pointer-events: none;
 }
 
@@ -69,7 +69,7 @@
   background: linear-gradient(
     to bottom,
     transparent,
-    rgba(79, 216, 201, 0.25),
+    rgba(106, 155, 204, 0.25),
     transparent
   );
   pointer-events: none;

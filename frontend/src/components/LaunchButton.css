@@ -1,0 +1,61 @@
+.launch-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 26px;
+  background: var(--text);
+  border: 1px solid var(--text);
+  border-radius: 999px;
+  color: var(--bg);
+  cursor: pointer;
+  pointer-events: all;
+  transition: background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.launch-btn:hover:not(:disabled) {
+  background: var(--orange);
+  border-color: var(--orange);
+  box-shadow: 0 6px 20px rgba(20, 20, 19, 0.14);
+}
+
+.launch-btn:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 3px;
+}
+
+.launch-btn:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.launch-btn-label {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+.launch-btn-arrow {
+  font-size: 15px;
+  transition: transform 0.2s ease;
+}
+
+.launch-btn:hover:not(:disabled) .launch-btn-arrow {
+  transform: translateX(3px);
+}
+
+.launch-transition {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  background: var(--bg);
+  pointer-events: none;
+}
+
+.launch-btn-lg {
+  padding: 19px 34px;
+}
+
+.launch-btn-lg .launch-btn-label {
+  font-size: 16px;
+}

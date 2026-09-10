@@ -1,3 +1,16 @@
+@keyframes app-reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.app-shell {
+  animation: app-reveal 0.45s ease both;
+}
+
 .app-main {
   flex: 1;
   display: grid;

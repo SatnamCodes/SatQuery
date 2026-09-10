@@ -38,7 +38,7 @@
   overflow: hidden;
   border: 1px solid var(--border-strong);
   background: var(--panel);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 12px 32px rgba(20, 20, 19, 0.14);
 }
 
 .hover-preview-image {
@@ -46,7 +46,7 @@
   height: 150px;
   object-fit: cover;
   display: block;
-  background: #05070d;
+  background: var(--stage);
 }
 
 .hover-preview-caption {
