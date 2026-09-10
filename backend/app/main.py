@@ -8,10 +8,11 @@ Endpoints:
 import os
 import time
 import uuid
+from collections import defaultdict, deque
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from fastapi import FastAPI, File, Form, HTTPException, UploadFile
+from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from PIL import Image
@@ -47,6 +48,37 @@ VALID_MODALITIES = {"optical", "sar"}
 VALID_PAIR_TYPES = {"bi_temporal", "cross_modal"}
 
 SESSIONS: Dict[str, dict] = {}
+
+# Per-IP sliding-window rate limit on the endpoints that either cost money
+# (query -> VLM call) or do real work (session creation, image decode).
+# This is process-local — on a horizontally-scaled deployment it only
+# throttles requests that land on the same warm instance, so treat it as
+# raising the bar against casual/scripted abuse, not a hard guarantee.
+RATE_LIMIT_WINDOW_S = 60
+QUERY_RATE_LIMIT = int(os.environ.get("SATQUERY_QUERY_RATE_LIMIT", "10"))
+SESSION_RATE_LIMIT = int(os.environ.get("SATQUERY_SESSION_RATE_LIMIT", "20"))
+_request_log: Dict[str, deque] = defaultdict(deque)
+
+
+def _client_ip(request: Request) -> str:
+    forwarded = request.headers.get("x-forwarded-for")
+    if forwarded:
+        return forwarded.split(",")[0].strip()
+    return request.client.host if request.client else "unknown"
+
+
+def _enforce_rate_limit(request: Request, bucket: str, limit: int) -> None:
+    key = f"{bucket}:{_client_ip(request)}"
+    now = time.time()
+    log = _request_log[key]
+    while log and now - log[0] > RATE_LIMIT_WINDOW_S:
+        log.popleft()
+    if len(log) >= limit:
+        raise HTTPException(
+            status_code=429,
+            detail=f"Rate limit exceeded: max {limit} {bucket} requests per {RATE_LIMIT_WINDOW_S}s. Try again shortly.",
+        )
+    log.append(now)
 
 
 def _purge_expired() -> None:
@@ -115,12 +147,14 @@ def _create_session(images: List[Image.Image], modalities: List[str], pair_type:
 
 @app.post("/api/session")
 async def create_session(
+    request: Request,
     image_1: UploadFile = File(...),
     modality_1: str = Form(...),
     image_2: Optional[UploadFile] = File(None),
     modality_2: Optional[str] = Form(None),
     pair_type: Optional[str] = Form(None),
 ):
+    _enforce_rate_limit(request, "session", SESSION_RATE_LIMIT)
     modality_1 = modality_1.lower()
     modality_2 = modality_2.lower() if modality_2 else None
     pair_type = pair_type.lower() if pair_type else None
@@ -157,7 +191,8 @@ async def list_samples():
 
 
 @app.post("/api/session/sample")
-async def create_session_from_sample(req: SampleSessionRequest):
+async def create_session_from_sample(req: SampleSessionRequest, request: Request):
+    _enforce_rate_limit(request, "session", SESSION_RATE_LIMIT)
     sample = samples_service.get_sample(req.sample_id)
     if sample is None:
         raise HTTPException(status_code=404, detail=f"Unknown sample_id: {req.sample_id}")
@@ -190,7 +225,8 @@ async def create_session_from_sample(req: SampleSessionRequest):
 
 
 @app.post("/api/query")
-async def query(req: QueryRequest):
+async def query(req: QueryRequest, request: Request):
+    _enforce_rate_limit(request, "query", QUERY_RATE_LIMIT)
     session = _get_session(req.session_id)
     if not req.question or not req.question.strip():
         raise HTTPException(status_code=400, detail="question must not be empty")
