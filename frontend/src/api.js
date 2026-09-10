@@ -1,4 +1,7 @@
-const BASE_URL = "http://127.0.0.1:8811";
+// In production this must point at the deployed backend, set via
+// VITE_API_BASE_URL at build time — never hardcode a localhost URL into
+// the shipped bundle. Falls back to local dev only when unset.
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8811";
 
 export async function checkHealth() {
   const res = await fetch(`${BASE_URL}/api/health`);

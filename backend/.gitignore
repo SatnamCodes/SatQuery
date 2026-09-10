@@ -2,4 +2,5 @@ venv/
 __pycache__/
 *.pyc
 .env
-data/
+# backend/data/ (real sample dataset, ~29MB) is intentionally tracked so
+# the deployed sample gallery works out of the box — see data/README.md.

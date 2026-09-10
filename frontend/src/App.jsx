@@ -47,6 +47,7 @@ export default function App() {
         role: "assistant",
         text: result.answer,
         trace: result.execution_trace,
+        stats: result.stats,
         benchmarkReference: result.benchmark_reference,
         question,
       };

@@ -10,7 +10,7 @@ from typing import Any, Dict, List, Optional
 from PIL import Image
 
 from . import change_detection, fusion, grounding, segmentation
-from .gemini_vlm import vlm
+from .vlm import vlm
 
 # --- Tool registry -----------------------------------------------------
 # min_images / max_images: how many images the tool needs.

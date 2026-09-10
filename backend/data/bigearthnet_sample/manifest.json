@@ -1,0 +1,1234 @@
+[
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_61_39.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_61_39",
+    "official_labels": [
+      "Arable land",
+      "Broad-leaved forest",
+      "Inland waters"
+    ],
+    "caption": "Would you identify any broad-leaved forest as lying right beside inland waters? -> yes",
+    "real_qa": {
+      "question": "Would you identify any broad-leaved forest as lying right beside inland waters?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_61_40.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_61_40",
+    "official_labels": [
+      "Arable land",
+      "Broad-leaved forest",
+      "Inland waters",
+      "Inland wetlands",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is any inland water adjacent to the border of land principally occupied by agriculture with significant areas of natural vegetation? -> yes",
+    "real_qa": {
+      "question": "Is any inland water adjacent to the border of land principally occupied by agriculture with significant areas of natural vegetation?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_61_41.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_61_41",
+    "official_labels": [
+      "Arable land",
+      "Broad-leaved forest",
+      "Coniferous forest",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land and a broad-leaved forest neighbouring each other in the image? -> yes",
+    "real_qa": {
+      "question": "Is any arable land and a broad-leaved forest neighbouring each other in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_61_42.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_61_42",
+    "official_labels": [
+      "Arable land",
+      "Coniferous forest"
+    ],
+    "caption": "Is there direct adjacency between any arable land and a coniferous forest in the scene? -> yes",
+    "real_qa": {
+      "question": "Is there direct adjacency between any arable land and a coniferous forest in the scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_39.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_39",
+    "official_labels": [
+      "Arable land",
+      "Broad-leaved forest",
+      "Inland waters",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation"
+    ],
+    "caption": "Does the boundary of any arable land touch that of a broad-leaved forest? -> yes",
+    "real_qa": {
+      "question": "Does the boundary of any arable land touch that of a broad-leaved forest?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_40.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_40",
+    "official_labels": [
+      "Arable land",
+      "Broad-leaved forest",
+      "Inland waters",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation"
+    ],
+    "caption": "Is any arable land directly touching a broad-leaved forest in the image? -> yes",
+    "real_qa": {
+      "question": "Is any arable land directly touching a broad-leaved forest in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_41.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_41",
+    "official_labels": [
+      "Arable land",
+      "Coniferous forest"
+    ],
+    "caption": "Does any arable land touch a coniferous forest in the image? -> yes",
+    "real_qa": {
+      "question": "Does any arable land touch a coniferous forest in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_42.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_42",
+    "official_labels": [
+      "Arable land",
+      "Coniferous forest",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation"
+    ],
+    "caption": "Is any arable land and a coniferous forest neighbouring each other in the image? -> yes",
+    "real_qa": {
+      "question": "Is any arable land and a coniferous forest neighbouring each other in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_43.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_43",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation"
+    ],
+    "caption": "Does any arable land come into contact with land principally occupied by agriculture with significant areas of natural vegetation in the image? -> yes",
+    "real_qa": {
+      "question": "Does any arable land come into contact with land principally occupied by agriculture with significant areas of natural vegetation in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_44.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_44",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Does any arable land directly border complex cultivation patterns in this scene? -> yes",
+    "real_qa": {
+      "question": "Does any arable land directly border complex cultivation patterns in this scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_45.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_45",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Coniferous forest",
+      "Urban fabric"
+    ],
+    "caption": "Does the image show any instance of complex cultivation patterns bordering urban fabrics? -> yes",
+    "real_qa": {
+      "question": "Does the image show any instance of complex cultivation patterns bordering urban fabrics?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_46.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_46",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Coniferous forest",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation"
+    ],
+    "caption": "Does any arable land come into contact with complex cultivation patterns in the image? -> yes",
+    "real_qa": {
+      "question": "Does any arable land come into contact with complex cultivation patterns in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_47.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_47",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Coniferous forest",
+      "Urban fabric"
+    ],
+    "caption": "Does any arable land touch complex cultivation patterns in the image? -> yes",
+    "real_qa": {
+      "question": "Does any arable land touch complex cultivation patterns in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_48.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_62_48",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Would you identify any instance of land principally occupied by agriculture with significant areas of natural vegetation as lying adjacent to urban fabrics? -> yes",
+    "real_qa": {
+      "question": "Would you identify any instance of land principally occupied by agriculture with significant areas of natural vegetation as lying adjacent to urban fabrics?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_38.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_38",
+    "official_labels": [
+      "Arable land",
+      "Broad-leaved forest",
+      "Inland waters",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Pastures",
+      "Urban fabric"
+    ],
+    "caption": "Does any arable land and a broad-leaved forest share a common boundary? -> yes",
+    "real_qa": {
+      "question": "Does any arable land and a broad-leaved forest share a common boundary?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_39.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_39",
+    "official_labels": [
+      "Arable land",
+      "Broad-leaved forest",
+      "Inland waters",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Does any broad-leaved forest and urban fabrics share a common boundary? -> yes",
+    "real_qa": {
+      "question": "Does any broad-leaved forest and urban fabrics share a common boundary?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_40.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_40",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Would you confirm that any arable land borders upon land principally occupied by agriculture with significant areas of natural vegetation? -> yes",
+    "real_qa": {
+      "question": "Would you confirm that any arable land borders upon land principally occupied by agriculture with significant areas of natural vegetation?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_41.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_41",
+    "official_labels": [
+      "Arable land",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land positioned right next to urban fabrics? -> yes",
+    "real_qa": {
+      "question": "Is any arable land positioned right next to urban fabrics?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_42.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_42",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land situated directly next to urban fabrics? -> yes",
+    "real_qa": {
+      "question": "Is any arable land situated directly next to urban fabrics?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_43.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_43",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Do regions of any arable land directly adjoin urban fabrics? -> yes",
+    "real_qa": {
+      "question": "Do regions of any arable land directly adjoin urban fabrics?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_44.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_44",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land positioned right next to urban fabrics? -> yes",
+    "real_qa": {
+      "question": "Is any arable land positioned right next to urban fabrics?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_45.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_45",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Coniferous forest",
+      "Urban fabric"
+    ],
+    "caption": "Is there any arable land and a coniferous forest directly connected in the scene? -> yes",
+    "real_qa": {
+      "question": "Is there any arable land and a coniferous forest directly connected in the scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_46.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_46",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Coniferous forest",
+      "Urban fabric"
+    ],
+    "caption": "Is there any arable land located alongside complex cultivation patterns in the image? -> yes",
+    "real_qa": {
+      "question": "Is there any arable land located alongside complex cultivation patterns in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_47.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_47",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Coniferous forest",
+      "Urban fabric"
+    ],
+    "caption": "Does any arable land lie right up against urban fabrics? -> yes",
+    "real_qa": {
+      "question": "Does any arable land lie right up against urban fabrics?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_48.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_48",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Does any instance of land principally occupied by agriculture with significant areas of natural vegetation meet urban fabrics at its edges in the image? -> yes",
+    "real_qa": {
+      "question": "Does any instance of land principally occupied by agriculture with significant areas of natural vegetation meet urban fabrics at its edges in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_49.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_49",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land contiguous with urban fabrics in the image? -> yes",
+    "real_qa": {
+      "question": "Is any arable land contiguous with urban fabrics in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_50.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_50",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Pastures",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land and urban fabrics side by side in this image? -> yes",
+    "real_qa": {
+      "question": "Is any arable land and urban fabrics side by side in this image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_51.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_51",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Pastures",
+      "Urban fabric"
+    ],
+    "caption": "Does any instance of land principally occupied by agriculture with significant areas of natural vegetation physically connect to urban fabrics in the image? -> yes",
+    "real_qa": {
+      "question": "Does any instance of land principally occupied by agriculture with significant areas of natural vegetation physically connect to urban fabrics in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_52.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_52",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Pastures",
+      "Urban fabric"
+    ],
+    "caption": "Does any instance of complex cultivation patterns make contact with urban fabrics in the image? -> yes",
+    "real_qa": {
+      "question": "Does any instance of complex cultivation patterns make contact with urban fabrics in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_53.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_63_53",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Coniferous forest",
+      "Pastures"
+    ],
+    "caption": "Is any arable land and pastures side by side in this image? -> yes",
+    "real_qa": {
+      "question": "Is any arable land and pastures side by side in this image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_37.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_37",
+    "official_labels": [
+      "Arable land",
+      "Broad-leaved forest",
+      "Inland waters",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Pastures"
+    ],
+    "caption": "Is there evidence that any broad-leaved forest and land principally occupied by agriculture with significant areas of natural vegetation are touching in the scene? -> yes",
+    "real_qa": {
+      "question": "Is there evidence that any broad-leaved forest and land principally occupied by agriculture with significant areas of natural vegetation are touching in the scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_38.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_38",
+    "official_labels": [
+      "Arable land",
+      "Broad-leaved forest",
+      "Inland waters",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Pastures",
+      "Urban fabric"
+    ],
+    "caption": "Does any instance of land principally occupied by agriculture with significant areas of natural vegetation make contact with urban fabrics in the image? -> yes",
+    "real_qa": {
+      "question": "Does any instance of land principally occupied by agriculture with significant areas of natural vegetation make contact with urban fabrics in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_39.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_39",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land adjacent to the border of land principally occupied by agriculture with significant areas of natural vegetation? -> yes",
+    "real_qa": {
+      "question": "Is any arable land adjacent to the border of land principally occupied by agriculture with significant areas of natural vegetation?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_40.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_40",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation"
+    ],
+    "caption": "Does any arable land meet land principally occupied by agriculture with significant areas of natural vegetation at its edges in the image? -> yes",
+    "real_qa": {
+      "question": "Does any arable land meet land principally occupied by agriculture with significant areas of natural vegetation at its edges in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_41.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_41",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation"
+    ],
+    "caption": "Is there direct adjacency between any arable land and land principally occupied by agriculture with significant areas of natural vegetation in the scene? -> yes",
+    "real_qa": {
+      "question": "Is there direct adjacency between any arable land and land principally occupied by agriculture with significant areas of natural vegetation in the scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_42.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_42",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land adjacent to the border of land principally occupied by agriculture with significant areas of natural vegetation? -> yes",
+    "real_qa": {
+      "question": "Is any arable land adjacent to the border of land principally occupied by agriculture with significant areas of natural vegetation?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_43.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_43",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation"
+    ],
+    "caption": "Does any arable land border land principally occupied by agriculture with significant areas of natural vegetation in this scene? -> yes",
+    "real_qa": {
+      "question": "Does any arable land border land principally occupied by agriculture with significant areas of natural vegetation in this scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_44.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_44",
+    "official_labels": [
+      "Arable land",
+      "Coniferous forest"
+    ],
+    "caption": "Does any arable land directly border a coniferous forest in this scene? -> yes",
+    "real_qa": {
+      "question": "Does any arable land directly border a coniferous forest in this scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_45.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_45",
+    "official_labels": [
+      "Arable land",
+      "Coniferous forest",
+      "Urban fabric"
+    ],
+    "caption": "Does any arable land abut a coniferous forest in the scene? -> yes",
+    "real_qa": {
+      "question": "Does any arable land abut a coniferous forest in the scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_46.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_46",
+    "official_labels": [
+      "Arable land",
+      "Coniferous forest",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is there any arable land located alongside land principally occupied by agriculture with significant areas of natural vegetation in the image? -> yes",
+    "real_qa": {
+      "question": "Is there any arable land located alongside land principally occupied by agriculture with significant areas of natural vegetation in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_47.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_47",
+    "official_labels": [
+      "Arable land",
+      "Coniferous forest",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is there any arable land and a coniferous forest directly connected in the scene? -> yes",
+    "real_qa": {
+      "question": "Is there any arable land and a coniferous forest directly connected in the scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_48.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_48",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Does any instance of land principally occupied by agriculture with significant areas of natural vegetation lie right up against urban fabrics? -> yes",
+    "real_qa": {
+      "question": "Does any instance of land principally occupied by agriculture with significant areas of natural vegetation lie right up against urban fabrics?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_49.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_49",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Pastures",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land and pastures neighbouring each other in the image? -> yes",
+    "real_qa": {
+      "question": "Is any arable land and pastures neighbouring each other in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_50.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_50",
+    "official_labels": [
+      "Arable land",
+      "Mixed forest",
+      "Pastures"
+    ],
+    "caption": "Does any mixed forest directly border pastures in this scene? -> yes",
+    "real_qa": {
+      "question": "Does any mixed forest directly border pastures in this scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_51.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_51",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Mixed forest",
+      "Pastures",
+      "Urban fabric"
+    ],
+    "caption": "Are there touching boundaries between any arable land and a mixed forest? -> yes",
+    "real_qa": {
+      "question": "Are there touching boundaries between any arable land and a mixed forest?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_52.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_52",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Pastures",
+      "Urban fabric"
+    ],
+    "caption": "Does any instance of pastures meet urban fabrics at its edges in the image? -> yes",
+    "real_qa": {
+      "question": "Does any instance of pastures meet urban fabrics at its edges in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_53.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_53",
+    "official_labels": [
+      "Arable land",
+      "Pastures",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land directly adjacent to pastures in this image? -> yes",
+    "real_qa": {
+      "question": "Is any arable land directly adjacent to pastures in this image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_54.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_54",
+    "official_labels": [
+      "Arable land",
+      "Coniferous forest",
+      "Pastures",
+      "Urban fabric"
+    ],
+    "caption": "Would you identify any instance of pastures as lying adjacent to urban fabrics? -> yes",
+    "real_qa": {
+      "question": "Would you identify any instance of pastures as lying adjacent to urban fabrics?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_55.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_55",
+    "official_labels": [
+      "Arable land",
+      "Coniferous forest",
+      "Pastures",
+      "Urban fabric"
+    ],
+    "caption": "Would you identify any arable land as lying adjacent to a coniferous forest? -> yes",
+    "real_qa": {
+      "question": "Would you identify any arable land as lying adjacent to a coniferous forest?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_56.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_56",
+    "official_labels": [
+      "Coniferous forest",
+      "Mixed forest",
+      "Pastures"
+    ],
+    "caption": "Would you identify any coniferous forest as lying adjacent to pastures? -> yes",
+    "real_qa": {
+      "question": "Would you identify any coniferous forest as lying adjacent to pastures?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_57.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_64_57",
+    "official_labels": [
+      "Complex cultivation patterns",
+      "Coniferous forest",
+      "Mixed forest",
+      "Pastures"
+    ],
+    "caption": "Does any instance of complex cultivation patterns border a mixed forest in this scene? -> yes",
+    "real_qa": {
+      "question": "Does any instance of complex cultivation patterns border a mixed forest in this scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_36.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_36",
+    "official_labels": [
+      "Arable land",
+      "Broad-leaved forest",
+      "Inland waters",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is any inland water and land principally occupied by agriculture with significant areas of natural vegetation adjoining regions in this scene? -> yes",
+    "real_qa": {
+      "question": "Is any inland water and land principally occupied by agriculture with significant areas of natural vegetation adjoining regions in this scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_37.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_37",
+    "official_labels": [
+      "Arable land",
+      "Broad-leaved forest",
+      "Inland waters",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land directly adjacent to urban fabrics in this image? -> yes",
+    "real_qa": {
+      "question": "Is any arable land directly adjacent to urban fabrics in this image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_38.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_38",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is any arable land directly adjacent to land principally occupied by agriculture with significant areas of natural vegetation in this image? -> yes",
+    "real_qa": {
+      "question": "Is any arable land directly adjacent to land principally occupied by agriculture with significant areas of natural vegetation in this image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_39.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_39",
+    "official_labels": [
+      "Arable land",
+      "Coniferous forest"
+    ],
+    "caption": "Would you identify any arable land as lying right beside a coniferous forest? -> yes",
+    "real_qa": {
+      "question": "Would you identify any arable land as lying right beside a coniferous forest?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_40.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_40",
+    "official_labels": [
+      "Arable land",
+      "Coniferous forest"
+    ],
+    "caption": "Is there any arable land located alongside a coniferous forest in the image? -> yes",
+    "real_qa": {
+      "question": "Is there any arable land located alongside a coniferous forest in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_41.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_41",
+    "official_labels": [
+      "Arable land",
+      "Mixed forest"
+    ],
+    "caption": "Is any arable land directly touching a mixed forest in the image? -> yes",
+    "real_qa": {
+      "question": "Is any arable land directly touching a mixed forest in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_42.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_42",
+    "official_labels": [
+      "Arable land",
+      "Mixed forest",
+      "Urban fabric"
+    ],
+    "caption": "Do regions of any arable land directly adjoin urban fabrics? -> yes",
+    "real_qa": {
+      "question": "Do regions of any arable land directly adjoin urban fabrics?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_43.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_43",
+    "official_labels": [
+      "Arable land",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation",
+      "Urban fabric"
+    ],
+    "caption": "Is there any arable land located alongside land principally occupied by agriculture with significant areas of natural vegetation in the image? -> yes",
+    "real_qa": {
+      "question": "Is there any arable land located alongside land principally occupied by agriculture with significant areas of natural vegetation in the image?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  },
+  {
+    "file": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_44.png",
+    "modality": "sar",
+    "source": "torchgeo/bigearthnet (real Sentinel-1 GRD, bands VV/VH)",
+    "patch_name": "S1A_IW_GRDH_1SDV_20170613T165043_33UUP_65_44",
+    "official_labels": [
+      "Arable land",
+      "Complex cultivation patterns",
+      "Land principally occupied by agriculture, with significant areas of natural vegetation"
+    ],
+    "caption": "Does any arable land border complex cultivation patterns in this scene? -> yes",
+    "real_qa": {
+      "question": "Does any arable land border complex cultivation patterns in this scene?",
+      "answer": "yes",
+      "type": "binary",
+      "category": "adjacency",
+      "country": "Austria",
+      "season": "Summer"
+    }
+  }
+]

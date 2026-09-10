@@ -1,0 +1,562 @@
+[
+  {
+    "file": "eurosat_annual_crop_land_01.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "annual crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: annual crop land."
+  },
+  {
+    "file": "eurosat_annual_crop_land_02.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "annual crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: annual crop land."
+  },
+  {
+    "file": "eurosat_annual_crop_land_03.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "annual crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: annual crop land."
+  },
+  {
+    "file": "eurosat_annual_crop_land_04.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "annual crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: annual crop land."
+  },
+  {
+    "file": "eurosat_annual_crop_land_05.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "annual crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: annual crop land."
+  },
+  {
+    "file": "eurosat_annual_crop_land_06.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "annual crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: annual crop land."
+  },
+  {
+    "file": "eurosat_annual_crop_land_07.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "annual crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: annual crop land."
+  },
+  {
+    "file": "eurosat_annual_crop_land_08.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "annual crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: annual crop land."
+  },
+  {
+    "file": "eurosat_forest_01.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "forest",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: forest."
+  },
+  {
+    "file": "eurosat_forest_02.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "forest",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: forest."
+  },
+  {
+    "file": "eurosat_forest_03.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "forest",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: forest."
+  },
+  {
+    "file": "eurosat_forest_04.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "forest",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: forest."
+  },
+  {
+    "file": "eurosat_forest_05.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "forest",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: forest."
+  },
+  {
+    "file": "eurosat_forest_06.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "forest",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: forest."
+  },
+  {
+    "file": "eurosat_forest_07.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "forest",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: forest."
+  },
+  {
+    "file": "eurosat_forest_08.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "forest",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: forest."
+  },
+  {
+    "file": "eurosat_brushland_or_shrubland_01.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "brushland or shrubland",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: brushland or shrubland."
+  },
+  {
+    "file": "eurosat_brushland_or_shrubland_02.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "brushland or shrubland",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: brushland or shrubland."
+  },
+  {
+    "file": "eurosat_brushland_or_shrubland_03.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "brushland or shrubland",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: brushland or shrubland."
+  },
+  {
+    "file": "eurosat_brushland_or_shrubland_04.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "brushland or shrubland",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: brushland or shrubland."
+  },
+  {
+    "file": "eurosat_brushland_or_shrubland_05.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "brushland or shrubland",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: brushland or shrubland."
+  },
+  {
+    "file": "eurosat_brushland_or_shrubland_06.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "brushland or shrubland",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: brushland or shrubland."
+  },
+  {
+    "file": "eurosat_brushland_or_shrubland_07.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "brushland or shrubland",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: brushland or shrubland."
+  },
+  {
+    "file": "eurosat_brushland_or_shrubland_08.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "brushland or shrubland",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: brushland or shrubland."
+  },
+  {
+    "file": "eurosat_highway_or_road_01.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "highway or road",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: highway or road."
+  },
+  {
+    "file": "eurosat_highway_or_road_02.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "highway or road",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: highway or road."
+  },
+  {
+    "file": "eurosat_highway_or_road_03.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "highway or road",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: highway or road."
+  },
+  {
+    "file": "eurosat_highway_or_road_04.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "highway or road",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: highway or road."
+  },
+  {
+    "file": "eurosat_highway_or_road_05.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "highway or road",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: highway or road."
+  },
+  {
+    "file": "eurosat_highway_or_road_06.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "highway or road",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: highway or road."
+  },
+  {
+    "file": "eurosat_highway_or_road_07.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "highway or road",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: highway or road."
+  },
+  {
+    "file": "eurosat_highway_or_road_08.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "highway or road",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: highway or road."
+  },
+  {
+    "file": "eurosat_industrial_buildings_or_commercial_buildings_01.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "industrial buildings or commercial buildings",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: industrial buildings or commercial buildings."
+  },
+  {
+    "file": "eurosat_industrial_buildings_or_commercial_buildings_02.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "industrial buildings or commercial buildings",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: industrial buildings or commercial buildings."
+  },
+  {
+    "file": "eurosat_industrial_buildings_or_commercial_buildings_03.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "industrial buildings or commercial buildings",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: industrial buildings or commercial buildings."
+  },
+  {
+    "file": "eurosat_industrial_buildings_or_commercial_buildings_04.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "industrial buildings or commercial buildings",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: industrial buildings or commercial buildings."
+  },
+  {
+    "file": "eurosat_industrial_buildings_or_commercial_buildings_05.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "industrial buildings or commercial buildings",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: industrial buildings or commercial buildings."
+  },
+  {
+    "file": "eurosat_industrial_buildings_or_commercial_buildings_06.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "industrial buildings or commercial buildings",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: industrial buildings or commercial buildings."
+  },
+  {
+    "file": "eurosat_industrial_buildings_or_commercial_buildings_07.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "industrial buildings or commercial buildings",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: industrial buildings or commercial buildings."
+  },
+  {
+    "file": "eurosat_industrial_buildings_or_commercial_buildings_08.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "industrial buildings or commercial buildings",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: industrial buildings or commercial buildings."
+  },
+  {
+    "file": "eurosat_pasture_land_01.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "pasture land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: pasture land."
+  },
+  {
+    "file": "eurosat_pasture_land_02.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "pasture land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: pasture land."
+  },
+  {
+    "file": "eurosat_pasture_land_03.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "pasture land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: pasture land."
+  },
+  {
+    "file": "eurosat_pasture_land_04.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "pasture land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: pasture land."
+  },
+  {
+    "file": "eurosat_pasture_land_05.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "pasture land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: pasture land."
+  },
+  {
+    "file": "eurosat_pasture_land_06.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "pasture land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: pasture land."
+  },
+  {
+    "file": "eurosat_pasture_land_07.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "pasture land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: pasture land."
+  },
+  {
+    "file": "eurosat_pasture_land_08.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "pasture land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: pasture land."
+  },
+  {
+    "file": "eurosat_permanent_crop_land_01.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "permanent crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: permanent crop land."
+  },
+  {
+    "file": "eurosat_permanent_crop_land_02.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "permanent crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: permanent crop land."
+  },
+  {
+    "file": "eurosat_permanent_crop_land_03.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "permanent crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: permanent crop land."
+  },
+  {
+    "file": "eurosat_permanent_crop_land_04.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "permanent crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: permanent crop land."
+  },
+  {
+    "file": "eurosat_permanent_crop_land_05.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "permanent crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: permanent crop land."
+  },
+  {
+    "file": "eurosat_permanent_crop_land_06.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "permanent crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: permanent crop land."
+  },
+  {
+    "file": "eurosat_permanent_crop_land_07.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "permanent crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: permanent crop land."
+  },
+  {
+    "file": "eurosat_permanent_crop_land_08.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "permanent crop land",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: permanent crop land."
+  },
+  {
+    "file": "eurosat_residential_buildings_or_homes_or_apartments_01.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "residential buildings or homes or apartments",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: residential buildings or homes or apartments."
+  },
+  {
+    "file": "eurosat_residential_buildings_or_homes_or_apartments_02.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "residential buildings or homes or apartments",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: residential buildings or homes or apartments."
+  },
+  {
+    "file": "eurosat_residential_buildings_or_homes_or_apartments_03.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "residential buildings or homes or apartments",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: residential buildings or homes or apartments."
+  },
+  {
+    "file": "eurosat_residential_buildings_or_homes_or_apartments_04.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "residential buildings or homes or apartments",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: residential buildings or homes or apartments."
+  },
+  {
+    "file": "eurosat_residential_buildings_or_homes_or_apartments_05.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "residential buildings or homes or apartments",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: residential buildings or homes or apartments."
+  },
+  {
+    "file": "eurosat_residential_buildings_or_homes_or_apartments_06.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "residential buildings or homes or apartments",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: residential buildings or homes or apartments."
+  },
+  {
+    "file": "eurosat_residential_buildings_or_homes_or_apartments_07.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "residential buildings or homes or apartments",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: residential buildings or homes or apartments."
+  },
+  {
+    "file": "eurosat_residential_buildings_or_homes_or_apartments_08.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "residential buildings or homes or apartments",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: residential buildings or homes or apartments."
+  },
+  {
+    "file": "eurosat_river_01.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "river",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: river."
+  },
+  {
+    "file": "eurosat_river_02.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "river",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: river."
+  },
+  {
+    "file": "eurosat_river_03.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "river",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: river."
+  },
+  {
+    "file": "eurosat_river_04.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "river",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: river."
+  },
+  {
+    "file": "eurosat_river_05.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "river",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: river."
+  },
+  {
+    "file": "eurosat_river_06.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "river",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: river."
+  },
+  {
+    "file": "eurosat_river_07.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "river",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: river."
+  },
+  {
+    "file": "eurosat_river_08.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "river",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: river."
+  },
+  {
+    "file": "eurosat_lake_or_sea_01.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "lake or sea",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: lake or sea."
+  },
+  {
+    "file": "eurosat_lake_or_sea_02.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "lake or sea",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: lake or sea."
+  },
+  {
+    "file": "eurosat_lake_or_sea_03.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "lake or sea",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: lake or sea."
+  },
+  {
+    "file": "eurosat_lake_or_sea_04.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "lake or sea",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: lake or sea."
+  },
+  {
+    "file": "eurosat_lake_or_sea_05.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "lake or sea",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: lake or sea."
+  },
+  {
+    "file": "eurosat_lake_or_sea_06.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "lake or sea",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: lake or sea."
+  },
+  {
+    "file": "eurosat_lake_or_sea_07.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "lake or sea",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: lake or sea."
+  },
+  {
+    "file": "eurosat_lake_or_sea_08.png",
+    "modality": "optical",
+    "source": "tanganke/eurosat (real Sentinel-2 derived RGB, EuroSAT benchmark)",
+    "label": "lake or sea",
+    "caption": "Sentinel-2 optical chip. Official EuroSAT land-use label: lake or sea."
+  }
+]

@@ -5,6 +5,7 @@ Endpoints:
   POST /api/query     ask a question against a session's images
   GET  /api/health    liveness + VLM/tool-registry status
 """
+import os
 import time
 import uuid
 from pathlib import Path
@@ -17,16 +18,22 @@ from PIL import Image
 from pydantic import BaseModel
 
 from .services import samples as samples_service
-from .services.gemini_vlm import vlm
+from .services.vlm import vlm
 from .services.imgutils import load_image_bytes
 from .services.orchestrator import TOOL_REGISTRY, route
 
 app = FastAPI(title="SatQuery AI Backend", version="0.1.0")
 
+# Comma-separated allowlist, e.g. "https://satquery.vercel.app". Defaults to
+# "*" for local dev; set SATQUERY_CORS_ORIGINS in production so the API
+# only answers requests from the deployed frontend, not any origin.
+_cors_origins = os.environ.get("SATQUERY_CORS_ORIGINS", "*")
+ALLOW_ORIGINS = ["*"] if _cors_origins == "*" else [o.strip() for o in _cors_origins.split(",")]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=ALLOW_ORIGINS,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )

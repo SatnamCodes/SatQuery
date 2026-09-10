@@ -1,0 +1,812 @@
+[
+  {
+    "file": "P0003_0002.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The aerial image from GoogleEarth features a group of large yellow buses lined up on the left side, and two small vehicles, one on the top-right and another large vehicle on the bottom-right side of the image. The buses are parked in a lot adjacent to a green area and a road running roughly north-south.",
+    "qa_pairs": [
+      {
+        "question": "What color are the large vehicles seen in the image?",
+        "answer": "Yellow",
+        "type": "object color"
+      },
+      {
+        "question": "How many small vehicles are visible in the image?",
+        "answer": "2",
+        "type": "object quantity"
+      },
+      {
+        "question": "Is there a vehicle located at the top-most position in the provided image?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "What is the orientation of the road in the image?",
+        "answer": "North-South",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0003_0004.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The image from GoogleEarth captures a section of a road with three vehicles visible. One large vehicle is positioned towards the middle-left side of the frame, two small vehicles are located at the top of the frame and the other at the bottom, with the road curving around the landscape.",
+    "qa_pairs": [
+      {
+        "question": "How many vehicles are visible in the image?",
+        "answer": "3",
+        "type": "object quantity"
+      },
+      {
+        "question": "What is the position of the large vehicle in the image?",
+        "answer": "middle-left",
+        "type": "object position"
+      },
+      {
+        "question": "Is the large vehicle located near greenery?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "What object class is the top-most vehicle?",
+        "answer": "small-vehicle",
+        "type": "object category"
+      },
+      {
+        "question": "What object class is the bottom-most vehicle?",
+        "answer": "small-vehicle",
+        "type": "object category"
+      }
+    ]
+  },
+  {
+    "file": "P0007_0001.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image from GoogleEarth shows a parking area with vehicles and asphalt surfaces. A small vehicle is positioned towards the top of this aerial view.",
+    "qa_pairs": [
+      {
+        "question": "How many small vehicles are visible?",
+        "answer": "1",
+        "type": "object quantity"
+      }
+    ]
+  },
+  {
+    "file": "P0007_0004.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The aerial image, sourced from GoogleEarth with high resolution, shows a parking lot with large vehicles arranged neatly in rows. Most of the large vehicles are white, and they are predominantly parked in a north-south alignment. There is a large vehicle at the left edge of the road.",
+    "qa_pairs": [
+      {
+        "question": "What is the predominant color of the large vehicles?",
+        "answer": "white",
+        "type": "object color"
+      },
+      {
+        "question": "How are the large vehicles predominantly arranged in the parking lot?",
+        "answer": "in rows",
+        "type": "object position"
+      },
+      {
+        "question": "Are there any large vehicles that are positioned away from the main cluster?",
+        "answer": "yes",
+        "type": "object existence"
+      },
+      {
+        "question": "What is the orientation of the large vehicles in the parking lot?",
+        "answer": "north-south",
+        "type": "object direction"
+      }
+    ]
+  },
+  {
+    "file": "P0007_0005.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "A high-resolution Google Earth image capturing a gray parking lot with large vehicles and a small vehicle. The large vehicles are aligned in parallel rows. A small vehicle is positioned near the top-right corner.",
+    "qa_pairs": [
+      {
+        "question": "How many large vehicles are visible?",
+        "answer": "4",
+        "type": "object quantity"
+      },
+      {
+        "question": "Is there a small vehicle present?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "Where is the small vehicle located?",
+        "answer": "Top-right",
+        "type": "object position"
+      },
+      {
+        "question": "What color is the parking lot?",
+        "answer": "Gray",
+        "type": "object color"
+      }
+    ]
+  },
+  {
+    "file": "P0007_0006.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image captured via GoogleEarth shows a collection of vehicles in a parking area. There are five large vehicles positioned in the top and middle on the right. Small vehicle is towards the middle-left of the image.",
+    "qa_pairs": [
+      {
+        "question": "How many large vehicles are in the image?",
+        "answer": "5",
+        "type": "object quantity"
+      },
+      {
+        "question": "Is there a small vehicle present in the image?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "Where is the small vehicle located?",
+        "answer": "middle-left",
+        "type": "object position"
+      },
+      {
+        "question": "Which vehicle is the right-most among all?",
+        "answer": "large-vehicle",
+        "type": "object position"
+      },
+      {
+        "question": "Which vehicle is the largest in the image?",
+        "answer": "large-vehicle",
+        "type": "object size"
+      }
+    ]
+  },
+  {
+    "file": "P0007_0009.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution aerial image from GoogleEarth shows a parking lot with large vehicles aligned in rows at the top of the image. The green area below the vehicles is a vegetation.",
+    "qa_pairs": [
+      {
+        "question": "What type of vehicles are mainly visible in the image?",
+        "answer": "large-vehicle",
+        "type": "object category"
+      },
+      {
+        "question": "What is the predominant color of the large vehicles in the image?",
+        "answer": "white",
+        "type": "object color"
+      },
+      {
+        "question": "Is there vegetation visible in the image?",
+        "answer": "yes",
+        "type": "object existence"
+      },
+      {
+        "question": "How many large vehicles are visible in the top row?",
+        "answer": "6",
+        "type": "object quantity"
+      },
+      {
+        "question": "Is there a large vehicle at the far right in the top row?",
+        "answer": "yes",
+        "type": "object existence"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0000.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The image from GoogleEarth presents a high-resolution view of a residential area with a driveway leading to a house surrounded by lush greenery. A small vehicle is parked near the bottom-middle part of the image, closely aligned with the house.",
+    "qa_pairs": [
+      {
+        "question": "What type of area is visible in the image?",
+        "answer": "residential",
+        "type": "object category"
+      },
+      {
+        "question": "Is there a vehicle parked in the driveway?",
+        "answer": "yes",
+        "type": "object existence"
+      },
+      {
+        "question": "How many vehicles are present?",
+        "answer": "1",
+        "type": "object quantity"
+      },
+      {
+        "question": "Where is the vehicle positioned in the image?",
+        "answer": "bottom-middle",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0001.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image from GoogleEarth shows a large house with a complex roof structure, surrounded by a well-manicured lawn with landscaping features. There is a large vehicle parked on the left side.",
+    "qa_pairs": [
+      {
+        "question": "Is there a vehicle present in the image?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "What object is located in the middle-left position of the image?",
+        "answer": "Large vehicle",
+        "type": "object position"
+      },
+      {
+        "question": "What is the shape of the house's roof?",
+        "answer": "Complex",
+        "type": "object shape"
+      },
+      {
+        "question": "What kind of area is shown in the image?",
+        "answer": "Residential",
+        "type": "object category"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0002.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image from Google Earth features a body of water with three small harbors. One harbor is located near the top right corner. Another is situated along the bottom edge. The third harbor is positioned between the other two, encompassing boat slips and a pier.",
+    "qa_pairs": [
+      {
+        "question": "How many harbors are visible in the image?",
+        "answer": "3",
+        "type": "object quantity"
+      },
+      {
+        "question": "Is there a harbor located at the top right corner of the image?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "What object class do all these structures belong to?",
+        "answer": "harbor",
+        "type": "object category"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0003.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "This high-resolution image provided by GoogleEarth features a natural landscape characterized by a body of water. Small ship located towards the top-middle area on the water surface. Surrounding the ship, there are harbors. One harbor is positioned towards the upper part of the image, another harbor is situated at the lower part.",
+    "qa_pairs": [
+      {
+        "question": "What is the primary natural feature shown in the image?",
+        "answer": "Body of water",
+        "type": "scene type"
+      },
+      {
+        "question": "How many harbors are visible in the image?",
+        "answer": "2",
+        "type": "object quantity"
+      },
+      {
+        "question": "Is the small ship closer to the top or bottom of the image?",
+        "answer": "Top",
+        "type": "object position"
+      },
+      {
+        "question": "Which side of the image has no harbors?",
+        "answer": "Left side",
+        "type": "object existence"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0004.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "This high-resolution aerial image sourced from GoogleEarth features a landscape dominated by tree cover. Two small harbors are visible on the right side of the image, surrounded by lush vegetation. The top-right harbor is smaller, the harbor located further down is larger.",
+    "qa_pairs": [
+      {
+        "question": "How many harbors are visible in the image?",
+        "answer": "2",
+        "type": "object quantity"
+      },
+      {
+        "question": "Where is the smaller harbor located?",
+        "answer": "top-right",
+        "type": "object position"
+      },
+      {
+        "question": "Is the larger harbor touching the image's edge?",
+        "answer": "Yes",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0005.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image provided by GoogleEarth features a residential area with two small vehicles. There's a house surrounded by verdant greenery. One vehicle is parked in a driveway area adjacent to the house, and another is on the top-right side of the image.",
+    "qa_pairs": [
+      {
+        "question": "How many small vehicles can be seen in the image?",
+        "answer": "2",
+        "type": "object quantity"
+      },
+      {
+        "question": "What is the main type of surrounding greenery around the house?",
+        "answer": "Trees",
+        "type": "object category"
+      },
+      {
+        "question": "Where is the house located in relation to the vehicles?",
+        "answer": "Under",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0006.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "This is a high-resolution image captured via Google Earth, showing a residential area with small vehicles and abundant greenery. In the middle-right of the image is a compact row of three cars parked end to end. To the left side, two vehicles are at the top edge and the other at the bottom edge of the frame.",
+    "qa_pairs": [
+      {
+        "question": "How many small vehicles are clearly visible in the image?",
+        "answer": "4",
+        "type": "object quantity"
+      },
+      {
+        "question": "Where is the top-most small vehicle situated in the image?",
+        "answer": "middle-left",
+        "type": "object position"
+      },
+      {
+        "question": "Is there any greenery present in the surroundings of the small vehicles?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "Which small vehicle is positioned at the right-most spot in their category?",
+        "answer": "middle-right",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0007.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image sourced from GoogleEarth features a top-down view of a residential area with vehicles. The tree cover and a patch of grass are separating two sections of the pavement. On the right, there is a small white vehicle parked on the edge of the paved area, on the top left, two other small vehicles are visible: one positioned more towards the top edge and the other towards the left edge of the image.",
+    "qa_pairs": [
+      {
+        "question": "What color is the small vehicle at the top-right position?",
+        "answer": "White",
+        "type": "object color"
+      },
+      {
+        "question": "How many vehicles are visible in the image?",
+        "answer": "3",
+        "type": "object quantity"
+      },
+      {
+        "question": "Is there vegetation present in the image?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "What is the object at the top-left position?",
+        "answer": "Small-vehicle",
+        "type": "object category"
+      },
+      {
+        "question": "Are all the visible vehicles parked?",
+        "answer": "Yes",
+        "type": "reasoning"
+      },
+      {
+        "question": "What is the relative position of the vehicles on the left side of the image?",
+        "answer": "Top-left",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0009.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "This high-resolution aerial image from GoogleEarth features small harbors situated next to a body of water. Ship is docked near the left harbor. All the harbors are connected to stretches of land with vegetation.",
+    "qa_pairs": [
+      {
+        "question": "How many harbors are visible in the image?",
+        "answer": "4",
+        "type": "object quantity"
+      },
+      {
+        "question": "Is there a ship near the left harbor?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "Where is the right-most harbor located?",
+        "answer": "Middle-right",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0012.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image sourced from GoogleEarth depicts a waterfront area with harbors. There are three small-sized harbors visible in the scene\u2014the first is located on the extreme left, the second is towards the center, and the third is positioned in the middle-right quadrant of the image.",
+    "qa_pairs": [
+      {
+        "question": "How many harbors are visible in the image?",
+        "answer": "3",
+        "type": "object quantity"
+      },
+      {
+        "question": "Are all harbors of the same size?",
+        "answer": "Yes",
+        "type": "reasoning"
+      },
+      {
+        "question": "Where is the right-most harbor located?",
+        "answer": "middle-right",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0016.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image provided by GoogleEarth showcases a suburban area with well-manicured lawns and individual houses. Small-vehicle is on a curved driveway located at the top right.",
+    "qa_pairs": [
+      {
+        "question": "What object is visible on the driveway?",
+        "answer": "small-vehicle",
+        "type": "object category"
+      },
+      {
+        "question": "Where is the small-vehicle positioned?",
+        "answer": "top-right",
+        "type": "object position"
+      },
+      {
+        "question": "How many houses can be seen?",
+        "answer": "3",
+        "type": "object quantity"
+      },
+      {
+        "question": "Is the image taken from a satellite?",
+        "answer": "Yes",
+        "type": "image"
+      },
+      {
+        "question": "What is the color of the tree's foliage?",
+        "answer": "Dark green",
+        "type": "object color"
+      },
+      {
+        "question": "Does the image depict a rural or urban area?",
+        "answer": "Suburban",
+        "type": "rural or urban"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0017.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "This high-resolution image from GoogleEarth displays a landscape with a water body along the edge. There are two harbors positioned at opposite ends of the shoreline. The first harbor is located in the middle-left section of the image with a small-sized dock extending into the water. The second harbor is situated in the middle-right section and it has a similar size small dock.",
+    "qa_pairs": [
+      {
+        "question": "How many harbors are visible in the image?",
+        "answer": "2",
+        "type": "object quantity"
+      },
+      {
+        "question": "What is the main body of water in the image?",
+        "answer": "lake",
+        "type": "object category"
+      },
+      {
+        "question": "What color predominantly features in the body of water?",
+        "answer": "dark",
+        "type": "object color"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0020.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution GoogleEarth image features a coastal scene with two harbors. The largest harbor is located towards the bottom-right of the image. Another harbor is towards the bottom-middle of the image, it is smaller in size and is positioned more centrally. Both harbors are nestled along the coastal area, surrounded by dark waters and patches of land.",
+    "qa_pairs": [
+      {
+        "question": "How many harbors are visible in the image?",
+        "answer": "2",
+        "type": "object quantity"
+      },
+      {
+        "question": "Where is the largest harbor located within the image?",
+        "answer": "bottom-right",
+        "type": "object position"
+      },
+      {
+        "question": "Which harbor is positioned more centrally along the bottom edge?",
+        "answer": "bottom-middle",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0021.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image provided by GoogleEarth shows a well-maintained neighborhood with a mix of greenery and residential properties. Small vehicle is visible in the middle-left area of the image, located on a driveway adjacent to a residence.",
+    "qa_pairs": [
+      {
+        "question": "What type of area does the image show?",
+        "answer": "residential",
+        "type": "scene type"
+      },
+      {
+        "question": "How many small vehicles can be seen in the image?",
+        "answer": "1",
+        "type": "object quantity"
+      },
+      {
+        "question": "Where is the small vehicle located?",
+        "answer": "middle-left",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0022.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "High-resolution image from GoogleEarth showing a residential area with small vehicles. On the left, there's a small vehicle located at the top part of the viewing area, on the right, there is another small vehicle positioned at the right edge of the image. The area is surrounded by dense greenery and a mix of driveways and a connecting road.",
+    "qa_pairs": [
+      {
+        "question": "How many small vehicles are visible?",
+        "answer": "3",
+        "type": "object quantity"
+      },
+      {
+        "question": "Are there any visible roads?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "Is dense greenery present in the area?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "Where is one of the small vehicles positioned in relation to the image?",
+        "answer": "left topmost",
+        "type": "object position"
+      },
+      {
+        "question": "Where is the other small vehicle in relation to the image viewing area?",
+        "answer": "rightmost edge",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0023.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image sourced from GoogleEarth depicts a residential area. There are two small vehicles on a road surrounded by dense foliage. One vehicle is located towards the top-left corner of the image, the other is towards the top-right corner.",
+    "qa_pairs": [
+      {
+        "question": "How many small vehicles are visible in the image?",
+        "answer": "3",
+        "type": "object quantity"
+      },
+      {
+        "question": "Where is the first vehicle positioned in the image?",
+        "answer": "top-left",
+        "type": "object position"
+      },
+      {
+        "question": "Is the small vehicle at the top-right complete or cut off by the image border?",
+        "answer": "complete",
+        "type": "object existence"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0024.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "A high-resolution image from GoogleEarth showcases a residential area with houses surrounded by greenery. The image includes a house with a red roof and an adjacent building, a yard with lush grass, trees providing abundant shade, and two small vehicles. One vehicle is positioned on the left bottom side of the yard, and another is situated on the top side near a structure.",
+    "qa_pairs": [
+      {
+        "question": "What color is the roof of the large structure in the image?",
+        "answer": "Red",
+        "type": "object color"
+      },
+      {
+        "question": "Are there more trees or vehicles visible in the image?",
+        "answer": "Trees",
+        "type": "object quantity"
+      },
+      {
+        "question": "How many vehicles are visible in the image?",
+        "answer": "2",
+        "type": "object quantity"
+      },
+      {
+        "question": "What is the primary color of the area surrounding the house?",
+        "answer": "Green",
+        "type": "object color"
+      },
+      {
+        "question": "Is the vehicle near the top of the image closer to a building or to the boundary of the property?",
+        "answer": "Building",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0025.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image from GoogleEarth features a small harbor surrounded by the dark water surface. The harbor, outlined by lighter green land areas.",
+    "qa_pairs": [
+      {
+        "question": "What is the main structure visible in the image?",
+        "answer": "harbor",
+        "type": "scene type"
+      },
+      {
+        "question": "What color is the water surface in the harbor?",
+        "answer": "dark",
+        "type": "object color"
+      },
+      {
+        "question": "What is the shape of the harbor in the image?",
+        "answer": "irregular",
+        "type": "object shape"
+      },
+      {
+        "question": "Is the harbor small or large in size compared to the image?",
+        "answer": "small",
+        "type": "object size"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0029.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution Google Earth image shows a small harbor surrounded by land with vegetation. The harbor is positioned at the junction where a slightly curved pier extends into the water.",
+    "qa_pairs": [
+      {
+        "question": "Which object category does the visible waterbody belong to?",
+        "answer": "harbor",
+        "type": "object category"
+      },
+      {
+        "question": "What type of area surrounds the harbor?",
+        "answer": "rural",
+        "type": "scene type"
+      },
+      {
+        "question": "Is there any pier visible in the image?",
+        "answer": "Yes",
+        "type": "object existence"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0030.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The image acquired from GoogleEarth shows a high-resolution view of a residential area with a small vehicle situated centrally at the top of the frame. This vehicle is parked near a house with a complex roof structure and is surrounded by manicured greenery and trees.",
+    "qa_pairs": [
+      {
+        "question": "What is the object category of the unique object?",
+        "answer": "small-vehicle",
+        "type": "object category"
+      },
+      {
+        "question": "Is there a small vehicle in the top middle part of the image?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "How many small vehicles are visible in the image?",
+        "answer": "1",
+        "type": "object quantity"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0032.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "This high-resolution image from GoogleEarth shows a waterfront area with adjacent properties. There is a small harbor located at the bottom of the image, with a ship docked in the bottom-left area near another small harbor. The surroundings include greenery with a mix of dense foliage and mowed lawns.",
+    "qa_pairs": [
+      {
+        "question": "How many harbors are visible?",
+        "answer": "2",
+        "type": "object quantity"
+      },
+      {
+        "question": "Is there a ship in the image?",
+        "answer": "Yes",
+        "type": "object existence"
+      },
+      {
+        "question": "Where is the ship located within the image?",
+        "answer": "bottom-left",
+        "type": "object position"
+      },
+      {
+        "question": "How many ships are docked?",
+        "answer": "1",
+        "type": "object quantity"
+      },
+      {
+        "question": "What is the position of the larger harbor in the image?",
+        "answer": "bottom-right",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0037.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "The high-resolution image from GoogleEarth showcases a maritime scene with a ship and two harbors. The ship has small size, positioned at the central left part of the image. One small harbor is visible towards the bottom-right corner, extending from the edge of the water to the land. The other is a smaller harbor located towards the top-right quadrant with a relatively smaller size.",
+    "qa_pairs": [
+      {
+        "question": "How many ships are present in the image?",
+        "answer": "1",
+        "type": "object quantity"
+      },
+      {
+        "question": "Is the harbor located at the bottom-right corner larger or smaller than the other?",
+        "answer": "larger",
+        "type": "reasoning"
+      },
+      {
+        "question": "What object is in the central left part of the image?",
+        "answer": "ship",
+        "type": "object position"
+      }
+    ]
+  },
+  {
+    "file": "P0019_0040.png",
+    "modality": "optical",
+    "source": "xiang709/VRSBench (real human-verified caption + VQA, val split)",
+    "caption": "A high-resolution image from Google Earth displays a residential area adjacent to a body of water. A small ship is docked at the center of the image, near the green shore. Toward the bottom middle of the image, there is a small harbor, characterized by a section of land extending into the water. The residential area includes houses with varying roof colors and well-maintained backyards.",
+    "qa_pairs": [
+      {
+        "question": "How many ships are visible in the image?",
+        "answer": "1",
+        "type": "object quantity"
+      },
+      {
+        "question": "What feature is found at the water's edge in the center of the image?",
+        "answer": "ship",
+        "type": "object category"
+      },
+      {
+        "question": "Is the harbor located near the top or bottom of the image?",
+        "answer": "bottom",
+        "type": "object position"
+      }
+    ]
+  }
+]

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import StopwatchMetric from "./StopwatchMetric";
 import PipelineVisualizer from "./PipelineVisualizer";
+import StatsTable from "./StatsTable";
 import AuditTrail from "./AuditTrail";
 import { SUGGESTED_QUERIES, guessTask } from "../taskMeta";
 import "./QueryConsole.css";
@@ -71,6 +72,9 @@ export default function QueryConsole({
               <div className="chat-msg-bubble panel">
                 {m.error ? <span className="chat-msg-error">{m.text}</span> : m.text}
               </div>
+              {m.role === "assistant" && m.stats && (
+                <StatsTable task={m.trace?.task} stats={m.stats} />
+              )}
               {m.role === "assistant" && m.benchmarkReference && (
                 <div className="benchmark-reference panel">
                   <span className="faint benchmark-reference-label">Benchmark reference answer (CDVQA)</span>
